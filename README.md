@@ -21,13 +21,24 @@ Freeze 3rd and 4th layers and abort 5th layer. Add a new softmax layer at the en
 
 ## Result
 ### Part 1
+Early stop in epoch 282. </br>
 Accuracy rate: 82.843 % </br>
 Training time: 18.89 sec
 
 ### Part 2
+Early stop in epoch 282. </br>
 Accuracy rate: 82.843 % </br>
 Training time: 17.69 sec </br>
 Training time is shorter than Part 1 because it saves the output of 5th layer.
 
 ### Part 3
-Training time: 18.65 sec
+Early stop in epoch 287. </br>
+Accuracy rate: 83.666 % </br>
+Training time: 18.87 sec </br>
+Accuracy rate is better than Part1 & Part2.
+
+### Part 4
+Early stop in epoch 123
+Training time: 12.02 sec
+Accuracy rate: 91.812 %
+Accuracy rate is much better than previous part because there are more trainable layers.
