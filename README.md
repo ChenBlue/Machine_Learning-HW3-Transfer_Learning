@@ -39,6 +39,6 @@ Accuracy rate is better than Part1 & Part2.
 
 ### Part 4
 Early stop in epoch 123 </br>
-Training time: 12.02 sec </br>
 Accuracy rate: 91.812 % </br>
-Accuracy rate is much better than previous part because there are more trainable layers.
+Training time: 12.02 sec </br>
+Accuracy rate is much better than previous parts because there are more trainable layers.
